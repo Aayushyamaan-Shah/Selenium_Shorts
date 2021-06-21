@@ -17,7 +17,7 @@ public class LaunchBrowser {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
         options.addArguments("headless");
-        HandsOnTwo runner = new HandsOnTwo();
+        HandsOnTwo runner = new HandsOnTwo(options);
         runner.run();
         runner.stop();
     }
@@ -25,7 +25,7 @@ public class LaunchBrowser {
     public static void main(String[] args){
         System.setProperty("webdriver.chrome.driver","E:\\Tools\\Drivers\\ChromeDriver\\chromedriver.exe");
         System.out.println("Running Hands On 1");
-        //handsOnOneRunner();
+        handsOnOneRunner();
         System.out.println("\n\n\nRunning Hands On 2");
         handsOnTwoRunner();
     }
