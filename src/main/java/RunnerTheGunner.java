@@ -1,16 +1,15 @@
+import DriverUtils.GetChromeOptions;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class RunnerTheGunner {
 
     // The runner code for Hands On 1
     public static void handsOnOneRunner(){
-        ChromeOptions options = new ChromeOptions(); // Create chrome options, if required. Optional
-
+        // Create chrome options, if required. This step is optional
         // The following arguments are all options and can be added or removed as required
         // A list of all chrome options can be found at:
         // https://peter.sh/experiments/chromium-command-line-switches/
-        options.addArguments("start-maximized"); // If the code is running in headed mode, this is maximize the window
-        options.addArguments("headless"); // If you don't want to see the window, use this option
+        ChromeOptions options = GetChromeOptions.withCommonArgs("start-maximized headless");
 
         // Create the object of the HandsOnOne class with chrome options
         HandsOnOne runner = new HandsOnOne(options);
@@ -28,13 +27,11 @@ public class RunnerTheGunner {
 
     // The runner code for Hands On 2
     public static void handsOnTwoRunner(){
-        ChromeOptions options = new ChromeOptions();  // Create chrome options, if required. Optional
-
+        // Create chrome options, if required. This step is optional
         // The following arguments are all options and can be added or removed as required
         // A list of all chrome options can be found at:
         // https://peter.sh/experiments/chromium-command-line-switches/
-        options.addArguments("start-maximized"); // If the code is running in headed mode, this is maximize the window
-        options.addArguments("headless"); // If you don't want to see the window, use this option
+        ChromeOptions options = GetChromeOptions.withCommonArgs("start-maximized headless");
 
         // Create the object of the HandsOnOne class with chrome options
         HandsOnTwo runner = new HandsOnTwo(options);
@@ -47,13 +44,11 @@ public class RunnerTheGunner {
     }
 
     public static void assignmentOneRunner(){
-        ChromeOptions options = new ChromeOptions();  // Create chrome options, if required. Optional
-
+        // Create chrome options, if required. This step is optional
         // The following arguments are all options and can be added or removed as required
         // A list of all chrome options can be found at:
         // https://peter.sh/experiments/chromium-command-line-switches/
-        options.addArguments("start-maximized"); // If the code is running in headed mode, this is maximize the window
-        options.addArguments("headless"); // If you don't want to see the window, use this option
+        ChromeOptions options = GetChromeOptions.withCommonArgs("start-maximized headless");
 
         // Create the object of the HandsOnOne class with chrome options
         AssignmentOne runner = new AssignmentOne(options);
