@@ -70,13 +70,11 @@ public class RunnerTheGunner {
        // Setting the webdriver location, this will change per machine
         System.setProperty("webdriver.chrome.driver","E:\\Tools\\Drivers\\ChromeDriver\\chromedriver.exe");
 
-        /*
         System.out.println("Running Hands On 1\n\n\n"); // Console log
         handsOnOneRunner(); // Call the handsOnOneRunner()
 
         System.out.println("Running Hands On 2\n\n\n"); // Console log
         handsOnTwoRunner(); // Call the handsOnTwoRunner()
-         */
 
         System.out.println("Running Assignment 2\n\n\n"); // Console log
         assignmentOneRunner(); // Call the assignmentOneRunner()

@@ -1,15 +1,15 @@
 {
 "persons":[
     {
-    "first name":"Aayushyamaan",
-    "last name":"Shah",
+    "first name":"Rey",
+    "last name":"Palpatine",
     "email":"someHero@jedi.com",
-    "phone":"9409409409",
-    "address":"Somewhere in a far away galaxy",
-    "city":"Rajkot",
+    "phone":"987456321",
+    "address":"Somewhere in a near galaxy",
+    "city":"Jakku",
     "state":"Indiana",
     "zip code":"46011",
-    "website":"aayushyamaan-shah.bitbucket.io",
+    "website":"https://starwars.fandom.com/wiki/Rey_Skywalker",
     "hosting":"no",
     "project_description":"IDK, Chewbacca was supposed to bring make one and pass on."
     }
