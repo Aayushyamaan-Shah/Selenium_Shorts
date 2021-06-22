@@ -104,4 +104,33 @@ public class LoadPage {
         // Call to the original closePopup with timeToWait set to null
         return closePopup(driver, elementToWait, closeButton, null);
     }
+
+    // Main wait method
+    // WebDriver - the driver with which you want to load the page
+    // elementToWait - xpath of the element of a popup that will become visible when the popup shows up
+    // Nullable timeTiWait - the maximum time you want to wait for the popup
+    public static void waitToLoad(WebDriver driver, String elementToWait, @Nullable Integer time){
+        try {
+            System.out.println("Waiting for page to load..."); // Console log
+
+            // Wait for the element whose xpath is provided
+            // Create the WebDriverWait object for the provided driver and a max wait of the time passed or 10s
+            WebDriverWait wait = new WebDriverWait(driver, time==null?10:time);
+
+            // Make the driver wait until the element is found in the webpage
+            // This can be swapped to ExpectedArguments.elementToBeClickable if required
+            wait.until(d -> d.findElement(By.xpath(elementToWait)));
+            System.out.println("Page loaded successfully."); // Console log
+        }
+        // If any exception occurs during the loading process, it will be caught here
+        catch (Exception e) {
+            // Printing appropriate message
+            System.out.println("The page did not load properly / in time.");
+        }
+    }
+
+    // An alternate closePopup method which can be used when timeToWait is to be kept default (10s)
+    public static void waitToLoad(WebDriver driver, String elementToWait){
+        waitToLoad(driver, elementToWait, null);
+    }
 }

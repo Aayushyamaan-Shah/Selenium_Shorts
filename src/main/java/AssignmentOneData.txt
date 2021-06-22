@@ -1,0 +1,18 @@
+{
+"registrations":[
+    {
+    "first name":"Aayushyamaan",
+    "last name":"Shah",
+    "phone":"9409409409",
+    "email":"someHero@jedi.com",
+    "address":"Somewhere in a far away galaxy",
+    "city":"Rajkot",
+    "state":"Gujarat",
+    "postal code":"46011",
+    "country":"India",
+    "user name":"SupaJedi",
+    "password":"DarkSide4Ever.",
+    "confirm password":"DarkSide4Ever.",
+    }
+    ]
+}

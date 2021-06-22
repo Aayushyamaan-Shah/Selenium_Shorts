@@ -25,6 +25,8 @@ public class ScreenShot {
             // Write the file to a location - Save the file
 
             // Get the current working directory
+            // The .replace is to be removed if using Linux or any other directory structure
+            // Linux uses '/' as separators while Windows uses '\'
             String currentLocation = System.getProperty("user.dir").replace("/","\\\\");
 
             // Save the resource at the current working directory or the directory specified
