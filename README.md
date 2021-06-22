@@ -17,3 +17,19 @@ The main project is divided in a few parts:
 # The DriverUtils Package
 This DriveUtils Packacge is the package that you are looking for if you want my code that handles day to day taksk like adding loading logs to console/println or taking
 a screen shot of the current visible section on the page, etc
+
+
+# How it works
+To run the program, you need all the .java files in the same manner they are presented here. Along with that the following are the additional requirements you will need
+- Selenium Webdriver
+- ChromeDriver
+- JDK Version 1.8+ 
+
+If you meet the above requirements, just download the files and run the "RunnerTheGunner.java" class and the output will be generated in the current project directory.
+
+All the inputs in the program are taken from text files and are easy to change. Just change the values in the text file and save it. Once saved, run the RunnerTheGunner.java and the program should run with the new values.
+
+If you find any bugs or are not able to run the program, feel free to contact me on my Discord: "TheElemental_A5#0444" or mail it to me at "aayush474@gmail.com"
+
+# License
+The whole project is licensed under the GNU GPL 3 license
