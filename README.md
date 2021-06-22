@@ -4,7 +4,7 @@ I am uploading the source code as I have gone through and created a few simple u
 as closing a popup or taking a snapshot.
 
 
-# The Project Structure
+# Project Structure
 The main project is divided in a few parts: 
   - The Runner file
     - This file contains the main function which will run all the code
@@ -14,7 +14,7 @@ The main project is divided in a few parts:
     - This package contains methods that common to all/most of the main files
 
 
-# The DriverUtils Package
+# DriverUtils Package
 This DriveUtils Packacge is the package that you are looking for if you want my code that handles day to day taksk like adding loading logs to console/println or taking
 a screen shot of the current visible section on the page, etc
 
