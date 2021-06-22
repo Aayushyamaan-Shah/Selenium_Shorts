@@ -76,7 +76,7 @@ public class RunnerTheGunner {
         System.out.println("Running Hands On 2\n\n\n"); // Console log
         handsOnTwoRunner(); // Call the handsOnTwoRunner()
 
-        System.out.println("Running Assignment 2\n\n\n"); // Console log
+        System.out.println("Running Assignment 1\n\n\n"); // Console log
         assignmentOneRunner(); // Call the assignmentOneRunner()
 
     }
