@@ -1,13 +1,13 @@
 {
 "registrations":[
     {
-    "first name":"Aayushyamaan",
-    "last name":"Shah",
-    "phone":"9409409409",
+    "first name":"Luke",
+    "last name":"SkyWalker",
+    "phone":"0315420300",
     "email":"someHero@jedi.com",
     "address":"Somewhere in a far away galaxy",
-    "city":"Rajkot",
-    "state":"Gujarat",
+    "city":"Somewhere",
+    "state":"Far Away Galaxy",
     "postal code":"46011",
     "country":"India",
     "user name":"SupaJedi",

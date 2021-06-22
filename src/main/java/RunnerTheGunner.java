@@ -56,7 +56,7 @@ public class RunnerTheGunner {
         options.addArguments("headless"); // If you don't want to see the window, use this option
 
         // Create the object of the HandsOnOne class with chrome options
-        AssignmentOne runner = new AssignmentOne();
+        AssignmentOne runner = new AssignmentOne(options);
 
         runner.run();  // Run the code for Hands On 2
 
@@ -71,14 +71,14 @@ public class RunnerTheGunner {
         System.setProperty("webdriver.chrome.driver","E:\\Tools\\Drivers\\ChromeDriver\\chromedriver.exe");
 
         /*
-        System.out.println("Running Hands On 1"); // Console log
+        System.out.println("Running Hands On 1\n\n\n"); // Console log
         handsOnOneRunner(); // Call the handsOnOneRunner()
 
-        System.out.println("\n\n\nRunning Hands On 2"); // Console log
+        System.out.println("Running Hands On 2\n\n\n"); // Console log
         handsOnTwoRunner(); // Call the handsOnTwoRunner()
          */
 
-        System.out.println("\n\n\nRunning Assignment 2"); // Console log
+        System.out.println("Running Assignment 2\n\n\n"); // Console log
         assignmentOneRunner(); // Call the assignmentOneRunner()
 
     }
