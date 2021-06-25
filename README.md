@@ -3,6 +3,7 @@ This small JAVA project is/was created to complete tasks for the Hands On and as
 I am uploading the source code as I have gone through and created a few simple utility classes that can help anyone to eleminate the need of writing the repeatating tasks such 
 as closing a popup or taking a snapshot.
 
+###### NOTE FOR OTHER STUDENTS: Use the provided project files (outside the DriverUtils Package) for reference purposes and not CTRL C+V purposes. If you copy paste, you are hurting your own ability to learn.
 
 # Project Structure
 The main project is divided in a few parts: 
