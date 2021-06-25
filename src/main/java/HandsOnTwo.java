@@ -30,6 +30,7 @@ public class HandsOnTwo {
     }
 
     // If someone does not want to use the Chrome Options, they can call this constructor
+    @SuppressWarnings("unused")
     public HandsOnTwo(){
         // Calling the main constructor with Chrome Options set ot null
         this(null);
