@@ -92,12 +92,6 @@ public class AssignmentTwo {
                                     + counter
                             );
 
-                            System.out.println("SEE ME:");
-
-                            System.out.print("TEST: ");
-                            System.out.print(enrollmentCategory);
-                            System.out.println(enrollmentID.toString().replaceAll("\n", ""));
-
                             System.out.println("Sending ID: " + enrollmentID); // Console log
 
                             String[] examInformation = currentLine.split(",");
