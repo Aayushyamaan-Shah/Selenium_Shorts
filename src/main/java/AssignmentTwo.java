@@ -44,7 +44,7 @@ public class AssignmentTwo {
                 information[3].replaceAll("\n", "") + " .txt";
         try(FileWriter fileWriter = new FileWriter(fileName, true)){
             System.out.println("PRINTER:");
-            String toWrite = enrollmentNo.replaceAll("\n","") + ((name==null)?"":"," + name) + ((sgpa==null)?",No Data Found\n":","+sgpa+"\n");
+            String toWrite = enrollmentNo.replaceAll("\n","") + ((sgpa==null)?",No Data Found\n":","+sgpa+"\n");
             System.out.println(toWrite);
             System.out.println("PRINTED");
             fileWriter.write(toWrite);
