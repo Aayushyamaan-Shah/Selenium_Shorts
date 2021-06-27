@@ -53,7 +53,7 @@ public class RunnerTheGunner {
         // Create the object of the HandsOnOne class with chrome options
         AssignmentOne runner = new AssignmentOne(options);
 
-        runner.run();  // Run the code for Hands On 2
+        runner.run();  // Run the code for Assignment 1
 
         // Stop and close the browser - compulsory line or else
         // there will be an open port hanging unless the program is closed
@@ -70,7 +70,7 @@ public class RunnerTheGunner {
         // Create the object of the HandsOnOne class with chrome options
         AssignmentTwo runner = new AssignmentTwo(options);
 
-        runner.run();  // Run the code for Hands On 2
+        runner.run();  // Run the code for Assignment 2
 
         // Stop and close the browser - compulsory line or else
         // there will be an open port hanging unless the program is closed
@@ -82,7 +82,6 @@ public class RunnerTheGunner {
        // Setting the webdriver location, this will change per machine
         System.setProperty("webdriver.chrome.driver","E:\\Tools\\Drivers\\ChromeDriver\\chromedriver.exe");
 
-        /*
         System.out.println("Running Hands On 1\n\n\n"); // Console log
         handsOnOneRunner(); // Call the handsOnOneRunner()
 
@@ -92,7 +91,7 @@ public class RunnerTheGunner {
         System.out.println("Running Assignment 1\n\n\n"); // Console log
         assignmentOneRunner(); // Call the assignmentOneRunner()
 
-        */
+
         System.out.println("Running Assignment 2\n\n\n"); // Console log
         assignmentTwoRunner(); // Call the assignmentOneRunner()
 
